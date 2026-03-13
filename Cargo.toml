@@ -1,0 +1,11 @@
+[package]
+name = "tomograf"
+version = "0.1.0"
+edition = "2024"
+
+[lib]
+name = "tomography"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = { version = "0.23", features = ["extension-module"] }
