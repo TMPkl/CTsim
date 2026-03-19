@@ -13,4 +13,10 @@ impl Pixel {
             position,
         }
     }
+    pub fn set(&mut self, value: u8) {
+        self.value = value;
+    }
+    pub fn get(&self) -> u8 {
+        return self.value;
+    }
 }
