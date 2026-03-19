@@ -14,6 +14,20 @@ pub struct PyImage {
 	inner: Image,
 }
 
+impl PyImage {
+	pub(crate) fn width_rust(&self) -> usize {
+		self.inner.width()
+	}
+
+	pub(crate) fn height_rust(&self) -> usize {
+		self.inner.height()
+	}
+
+	pub(crate) fn get_pixel_rust(&self, x: usize, y: usize) -> u8 {
+		self.inner.get_pixel_value(x, y)
+	}
+}
+
 #[pymethods]
 impl PyImage {
 	#[new]

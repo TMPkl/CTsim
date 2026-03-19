@@ -1,5 +1,6 @@
 use crate::pixel::Pixel;
 use crate::point::Point;
+use crate::PyImage;
 
 #[derive(Debug, Clone)]
 pub struct Image {
@@ -11,6 +12,24 @@ pub struct Image {
 impl Image {
     pub fn new(width: usize, height: usize) -> Self {
         let pixels = vec![vec![Pixel::new(0, Point::new(0, 0)); width]; height];
+        Self {
+            width,
+            height,
+            pixels,
+        }
+    }
+
+    pub fn new_from_py_image(py_img: &PyImage) -> Self {
+        let width = py_img.width_rust();
+        let height = py_img.height_rust();
+        let pixels = (0..height)
+            .map(|y| {
+                (0..width)
+                    .map(|x| Pixel::new(py_img.get_pixel_rust(x, y), Point::new(x as i32, y as i32)))
+                    .collect()
+            })
+            .collect();
+
         Self {
             width,
             height,
