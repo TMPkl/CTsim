@@ -1,0 +1,3 @@
+/home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles/tomograf.dir
+/home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles/edit_cache.dir
+/home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles/rebuild_cache.dir
