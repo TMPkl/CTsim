@@ -12,7 +12,10 @@ include_directories(${OpenCV_INCLUDE_DIRS})
 # Dodaj plik wykonywalny z pliku main.cpp
 add_executable(tomograf 
     src/main.cpp
-    src/phantom_generator.cpp)
+    src/phantom_generator.cpp
+    src/radon.cpp
+    src/iradon.cpp
+    )
 
 
 # Zlinkuj z bibliotekami OpenCV
