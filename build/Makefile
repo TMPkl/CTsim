@@ -129,6 +129,30 @@ tomograf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/build
 .PHONY : tomograf/fast
 
+src/iradon.o: src/iradon.cpp.o
+.PHONY : src/iradon.o
+
+# target to build an object file
+src/iradon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/iradon.cpp.o
+.PHONY : src/iradon.cpp.o
+
+src/iradon.i: src/iradon.cpp.i
+.PHONY : src/iradon.i
+
+# target to preprocess a source file
+src/iradon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/iradon.cpp.i
+.PHONY : src/iradon.cpp.i
+
+src/iradon.s: src/iradon.cpp.s
+.PHONY : src/iradon.s
+
+# target to generate assembly for a file
+src/iradon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/iradon.cpp.s
+.PHONY : src/iradon.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -177,6 +201,30 @@ src/phantom_generator.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/phantom_generator.cpp.s
 .PHONY : src/phantom_generator.cpp.s
 
+src/radon.o: src/radon.cpp.o
+.PHONY : src/radon.o
+
+# target to build an object file
+src/radon.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/radon.cpp.o
+.PHONY : src/radon.cpp.o
+
+src/radon.i: src/radon.cpp.i
+.PHONY : src/radon.i
+
+# target to preprocess a source file
+src/radon.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/radon.cpp.i
+.PHONY : src/radon.cpp.i
+
+src/radon.s: src/radon.cpp.s
+.PHONY : src/radon.s
+
+# target to generate assembly for a file
+src/radon.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/radon.cpp.s
+.PHONY : src/radon.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -186,12 +234,18 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tomograf"
+	@echo "... src/iradon.o"
+	@echo "... src/iradon.i"
+	@echo "... src/iradon.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
 	@echo "... src/phantom_generator.o"
 	@echo "... src/phantom_generator.i"
 	@echo "... src/phantom_generator.s"
+	@echo "... src/radon.o"
+	@echo "... src/radon.i"
+	@echo "... src/radon.s"
 .PHONY : help
 
 

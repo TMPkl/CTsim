@@ -4,6 +4,8 @@ tomograf: \
   /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o \
   CMakeFiles/tomograf.dir/src/main.cpp.o \
   CMakeFiles/tomograf.dir/src/phantom_generator.cpp.o \
+  CMakeFiles/tomograf.dir/src/radon.cpp.o \
+  CMakeFiles/tomograf.dir/src/iradon.cpp.o \
   /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.10.0 \
   /usr/lib/x86_64-linux-gnu/libopencv_alphamat.so.4.10.0 \
   /usr/lib/x86_64-linux-gnu/libopencv_aruco.so.4.10.0 \
@@ -91,7 +93,6 @@ tomograf: \
   /lib/x86_64-linux-gnu/libQt5Widgets.so.5 \
   /lib/x86_64-linux-gnu/libQt5Gui.so.5 \
   /lib/x86_64-linux-gnu/libQt5Core.so.5 \
-  /lib/x86_64-linux-gnu/libm.so.6 \
   /lib/x86_64-linux-gnu/libz.so.1 \
   /lib/x86_64-linux-gnu/libGLX.so.0 \
   /lib/x86_64-linux-gnu/liblapack.so.3 \
@@ -132,6 +133,10 @@ tomograf: \
 CMakeFiles/tomograf.dir/src/main.cpp.o:
 
 CMakeFiles/tomograf.dir/src/phantom_generator.cpp.o:
+
+CMakeFiles/tomograf.dir/src/radon.cpp.o:
+
+CMakeFiles/tomograf.dir/src/iradon.cpp.o:
 
 /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.10.0:
 
@@ -306,8 +311,6 @@ CMakeFiles/tomograf.dir/src/phantom_generator.cpp.o:
 /lib/x86_64-linux-gnu/libQt5Gui.so.5:
 
 /lib/x86_64-linux-gnu/libQt5Core.so.5:
-
-/lib/x86_64-linux-gnu/libm.so.6:
 
 /lib/x86_64-linux-gnu/libz.so.1:
 

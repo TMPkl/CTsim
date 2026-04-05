@@ -100,16 +100,48 @@ CMakeFiles/tomograf.dir/src/phantom_generator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tomograf.dir/src/phantom_generator.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/Documents/studia/sem6/med/tomograf/src/phantom_generator.cpp -o CMakeFiles/tomograf.dir/src/phantom_generator.cpp.s
 
+CMakeFiles/tomograf.dir/src/radon.cpp.o: CMakeFiles/tomograf.dir/flags.make
+CMakeFiles/tomograf.dir/src/radon.cpp.o: /home/karol/Documents/studia/sem6/med/tomograf/src/radon.cpp
+CMakeFiles/tomograf.dir/src/radon.cpp.o: CMakeFiles/tomograf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/tomograf.dir/src/radon.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tomograf.dir/src/radon.cpp.o -MF CMakeFiles/tomograf.dir/src/radon.cpp.o.d -o CMakeFiles/tomograf.dir/src/radon.cpp.o -c /home/karol/Documents/studia/sem6/med/tomograf/src/radon.cpp
+
+CMakeFiles/tomograf.dir/src/radon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tomograf.dir/src/radon.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karol/Documents/studia/sem6/med/tomograf/src/radon.cpp > CMakeFiles/tomograf.dir/src/radon.cpp.i
+
+CMakeFiles/tomograf.dir/src/radon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tomograf.dir/src/radon.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/Documents/studia/sem6/med/tomograf/src/radon.cpp -o CMakeFiles/tomograf.dir/src/radon.cpp.s
+
+CMakeFiles/tomograf.dir/src/iradon.cpp.o: CMakeFiles/tomograf.dir/flags.make
+CMakeFiles/tomograf.dir/src/iradon.cpp.o: /home/karol/Documents/studia/sem6/med/tomograf/src/iradon.cpp
+CMakeFiles/tomograf.dir/src/iradon.cpp.o: CMakeFiles/tomograf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/tomograf.dir/src/iradon.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/tomograf.dir/src/iradon.cpp.o -MF CMakeFiles/tomograf.dir/src/iradon.cpp.o.d -o CMakeFiles/tomograf.dir/src/iradon.cpp.o -c /home/karol/Documents/studia/sem6/med/tomograf/src/iradon.cpp
+
+CMakeFiles/tomograf.dir/src/iradon.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/tomograf.dir/src/iradon.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/karol/Documents/studia/sem6/med/tomograf/src/iradon.cpp > CMakeFiles/tomograf.dir/src/iradon.cpp.i
+
+CMakeFiles/tomograf.dir/src/iradon.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/tomograf.dir/src/iradon.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/karol/Documents/studia/sem6/med/tomograf/src/iradon.cpp -o CMakeFiles/tomograf.dir/src/iradon.cpp.s
+
 # Object files for target tomograf
 tomograf_OBJECTS = \
 "CMakeFiles/tomograf.dir/src/main.cpp.o" \
-"CMakeFiles/tomograf.dir/src/phantom_generator.cpp.o"
+"CMakeFiles/tomograf.dir/src/phantom_generator.cpp.o" \
+"CMakeFiles/tomograf.dir/src/radon.cpp.o" \
+"CMakeFiles/tomograf.dir/src/iradon.cpp.o"
 
 # External object files for target tomograf
 tomograf_EXTERNAL_OBJECTS =
 
 tomograf: CMakeFiles/tomograf.dir/src/main.cpp.o
 tomograf: CMakeFiles/tomograf.dir/src/phantom_generator.cpp.o
+tomograf: CMakeFiles/tomograf.dir/src/radon.cpp.o
+tomograf: CMakeFiles/tomograf.dir/src/iradon.cpp.o
 tomograf: CMakeFiles/tomograf.dir/build.make
 tomograf: CMakeFiles/tomograf.dir/compiler_depend.ts
 tomograf: /usr/lib/x86_64-linux-gnu/libopencv_stitching.so.4.10.0
@@ -168,7 +200,7 @@ tomograf: /usr/lib/x86_64-linux-gnu/libopencv_photo.so.4.10.0
 tomograf: /usr/lib/x86_64-linux-gnu/libopencv_imgproc.so.4.10.0
 tomograf: /usr/lib/x86_64-linux-gnu/libopencv_core.so.4.10.0
 tomograf: CMakeFiles/tomograf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable tomograf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable tomograf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tomograf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

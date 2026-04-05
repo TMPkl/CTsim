@@ -8,8 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/karol/Documents/studia/sem6/med/tomograf/src/iradon.cpp" "CMakeFiles/tomograf.dir/src/iradon.cpp.o" "gcc" "CMakeFiles/tomograf.dir/src/iradon.cpp.o.d"
   "/home/karol/Documents/studia/sem6/med/tomograf/src/main.cpp" "CMakeFiles/tomograf.dir/src/main.cpp.o" "gcc" "CMakeFiles/tomograf.dir/src/main.cpp.o.d"
   "/home/karol/Documents/studia/sem6/med/tomograf/src/phantom_generator.cpp" "CMakeFiles/tomograf.dir/src/phantom_generator.cpp.o" "gcc" "CMakeFiles/tomograf.dir/src/phantom_generator.cpp.o.d"
+  "/home/karol/Documents/studia/sem6/med/tomograf/src/radon.cpp" "CMakeFiles/tomograf.dir/src/radon.cpp.o" "gcc" "CMakeFiles/tomograf.dir/src/radon.cpp.o.d"
   "" "tomograf" "gcc" "CMakeFiles/tomograf.dir/link.d"
   )
 
