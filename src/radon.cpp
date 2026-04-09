@@ -77,7 +77,9 @@ float bresenhamMeanOfPixels(const cv::Mat& img, int x0, int y0, int x1, int y1) 
 cv::Mat radonTransform(const cv::Mat& img,
                        float delta_angle,
                        int number_of_emitters,
-                       float detector_span) {
+                       float detector_span,
+                       float total_angle = 180.0f) {   
+    
 
     int width = img.cols;
     int height = img.rows;
@@ -85,6 +87,8 @@ cv::Mat radonTransform(const cv::Mat& img,
     int num_angles = 180 / delta_angle;
 
     cv::Mat sinogram = cv::Mat::zeros(number_of_emitters, num_angles, CV_32F);
+
+    num_angles = static_cast<int>(total_angle / delta_angle);
 
     int centerX = width / 2;
     int centerY = height / 2;
