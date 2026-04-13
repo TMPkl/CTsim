@@ -76,21 +76,24 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/tomograf.dir/clean
+clean: CMakeFiles/tomograf_autogen_timestamp_deps.dir/clean
+clean: CMakeFiles/tomograf_autogen.dir/clean
 .PHONY : clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/tomograf.dir
 
 # All Build rule for target.
-CMakeFiles/tomograf.dir/all:
+CMakeFiles/tomograf.dir/all: CMakeFiles/tomograf_autogen_timestamp_deps.dir/all
+CMakeFiles/tomograf.dir/all: CMakeFiles/tomograf_autogen.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles --progress-num=1,2,3,4,5 "Built target tomograf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Built target tomograf"
 .PHONY : CMakeFiles/tomograf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/tomograf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tomograf.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles 0
 .PHONY : CMakeFiles/tomograf.dir/rule
@@ -100,15 +103,79 @@ tomograf: CMakeFiles/tomograf.dir/rule
 .PHONY : tomograf
 
 # codegen rule for target.
-CMakeFiles/tomograf.dir/codegen:
+CMakeFiles/tomograf.dir/codegen: CMakeFiles/tomograf_autogen_timestamp_deps.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/codegen
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles --progress-num=1,2,3,4,5 "Finished codegen for target tomograf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11 "Finished codegen for target tomograf"
 .PHONY : CMakeFiles/tomograf.dir/codegen
 
 # clean rule for target.
 CMakeFiles/tomograf.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/clean
 .PHONY : CMakeFiles/tomograf.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tomograf_autogen_timestamp_deps.dir
+
+# All Build rule for target.
+CMakeFiles/tomograf_autogen_timestamp_deps.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf_autogen_timestamp_deps.dir/build.make CMakeFiles/tomograf_autogen_timestamp_deps.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf_autogen_timestamp_deps.dir/build.make CMakeFiles/tomograf_autogen_timestamp_deps.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles --progress-num= "Built target tomograf_autogen_timestamp_deps"
+.PHONY : CMakeFiles/tomograf_autogen_timestamp_deps.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tomograf_autogen_timestamp_deps.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles 0
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tomograf_autogen_timestamp_deps.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles 0
+.PHONY : CMakeFiles/tomograf_autogen_timestamp_deps.dir/rule
+
+# Convenience name for target.
+tomograf_autogen_timestamp_deps: CMakeFiles/tomograf_autogen_timestamp_deps.dir/rule
+.PHONY : tomograf_autogen_timestamp_deps
+
+# codegen rule for target.
+CMakeFiles/tomograf_autogen_timestamp_deps.dir/codegen:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf_autogen_timestamp_deps.dir/build.make CMakeFiles/tomograf_autogen_timestamp_deps.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles --progress-num= "Finished codegen for target tomograf_autogen_timestamp_deps"
+.PHONY : CMakeFiles/tomograf_autogen_timestamp_deps.dir/codegen
+
+# clean rule for target.
+CMakeFiles/tomograf_autogen_timestamp_deps.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf_autogen_timestamp_deps.dir/build.make CMakeFiles/tomograf_autogen_timestamp_deps.dir/clean
+.PHONY : CMakeFiles/tomograf_autogen_timestamp_deps.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/tomograf_autogen.dir
+
+# All Build rule for target.
+CMakeFiles/tomograf_autogen.dir/all: CMakeFiles/tomograf_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf_autogen.dir/build.make CMakeFiles/tomograf_autogen.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf_autogen.dir/build.make CMakeFiles/tomograf_autogen.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles --progress-num=12 "Built target tomograf_autogen"
+.PHONY : CMakeFiles/tomograf_autogen.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/tomograf_autogen.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/tomograf_autogen.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles 0
+.PHONY : CMakeFiles/tomograf_autogen.dir/rule
+
+# Convenience name for target.
+tomograf_autogen: CMakeFiles/tomograf_autogen.dir/rule
+.PHONY : tomograf_autogen
+
+# codegen rule for target.
+CMakeFiles/tomograf_autogen.dir/codegen: CMakeFiles/tomograf_autogen_timestamp_deps.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf_autogen.dir/build.make CMakeFiles/tomograf_autogen.dir/codegen
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/karol/Documents/studia/sem6/med/tomograf/build/CMakeFiles --progress-num=12 "Finished codegen for target tomograf_autogen"
+.PHONY : CMakeFiles/tomograf_autogen.dir/codegen
+
+# clean rule for target.
+CMakeFiles/tomograf_autogen.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf_autogen.dir/build.make CMakeFiles/tomograf_autogen.dir/clean
+.PHONY : CMakeFiles/tomograf_autogen.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

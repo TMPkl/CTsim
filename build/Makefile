@@ -129,6 +129,56 @@ tomograf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/build
 .PHONY : tomograf/fast
 
+#=============================================================================
+# Target rules for targets named tomograf_autogen_timestamp_deps
+
+# Build rule for target.
+tomograf_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tomograf_autogen_timestamp_deps
+.PHONY : tomograf_autogen_timestamp_deps
+
+# fast build rule for target.
+tomograf_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf_autogen_timestamp_deps.dir/build.make CMakeFiles/tomograf_autogen_timestamp_deps.dir/build
+.PHONY : tomograf_autogen_timestamp_deps/fast
+
+#=============================================================================
+# Target rules for targets named tomograf_autogen
+
+# Build rule for target.
+tomograf_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 tomograf_autogen
+.PHONY : tomograf_autogen
+
+# fast build rule for target.
+tomograf_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf_autogen.dir/build.make CMakeFiles/tomograf_autogen.dir/build
+.PHONY : tomograf_autogen/fast
+
+src/dicom_handler.o: src/dicom_handler.cpp.o
+.PHONY : src/dicom_handler.o
+
+# target to build an object file
+src/dicom_handler.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/dicom_handler.cpp.o
+.PHONY : src/dicom_handler.cpp.o
+
+src/dicom_handler.i: src/dicom_handler.cpp.i
+.PHONY : src/dicom_handler.i
+
+# target to preprocess a source file
+src/dicom_handler.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/dicom_handler.cpp.i
+.PHONY : src/dicom_handler.cpp.i
+
+src/dicom_handler.s: src/dicom_handler.cpp.s
+.PHONY : src/dicom_handler.s
+
+# target to generate assembly for a file
+src/dicom_handler.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/dicom_handler.cpp.s
+.PHONY : src/dicom_handler.cpp.s
+
 src/iradon.o: src/iradon.cpp.o
 .PHONY : src/iradon.o
 
@@ -176,6 +226,30 @@ src/main.s: src/main.cpp.s
 src/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
+
+src/patient_info_dialog.o: src/patient_info_dialog.cpp.o
+.PHONY : src/patient_info_dialog.o
+
+# target to build an object file
+src/patient_info_dialog.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/patient_info_dialog.cpp.o
+.PHONY : src/patient_info_dialog.cpp.o
+
+src/patient_info_dialog.i: src/patient_info_dialog.cpp.i
+.PHONY : src/patient_info_dialog.i
+
+# target to preprocess a source file
+src/patient_info_dialog.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/patient_info_dialog.cpp.i
+.PHONY : src/patient_info_dialog.cpp.i
+
+src/patient_info_dialog.s: src/patient_info_dialog.cpp.s
+.PHONY : src/patient_info_dialog.s
+
+# target to generate assembly for a file
+src/patient_info_dialog.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/patient_info_dialog.cpp.s
+.PHONY : src/patient_info_dialog.cpp.s
 
 src/phantom_generator.o: src/phantom_generator.cpp.o
 .PHONY : src/phantom_generator.o
@@ -225,6 +299,78 @@ src/radon.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/radon.cpp.s
 .PHONY : src/radon.cpp.s
 
+src/ram_lak_filter.o: src/ram_lak_filter.cpp.o
+.PHONY : src/ram_lak_filter.o
+
+# target to build an object file
+src/ram_lak_filter.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/ram_lak_filter.cpp.o
+.PHONY : src/ram_lak_filter.cpp.o
+
+src/ram_lak_filter.i: src/ram_lak_filter.cpp.i
+.PHONY : src/ram_lak_filter.i
+
+# target to preprocess a source file
+src/ram_lak_filter.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/ram_lak_filter.cpp.i
+.PHONY : src/ram_lak_filter.cpp.i
+
+src/ram_lak_filter.s: src/ram_lak_filter.cpp.s
+.PHONY : src/ram_lak_filter.s
+
+# target to generate assembly for a file
+src/ram_lak_filter.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/ram_lak_filter.cpp.s
+.PHONY : src/ram_lak_filter.cpp.s
+
+src/tomograph_window.o: src/tomograph_window.cpp.o
+.PHONY : src/tomograph_window.o
+
+# target to build an object file
+src/tomograph_window.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/tomograph_window.cpp.o
+.PHONY : src/tomograph_window.cpp.o
+
+src/tomograph_window.i: src/tomograph_window.cpp.i
+.PHONY : src/tomograph_window.i
+
+# target to preprocess a source file
+src/tomograph_window.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/tomograph_window.cpp.i
+.PHONY : src/tomograph_window.cpp.i
+
+src/tomograph_window.s: src/tomograph_window.cpp.s
+.PHONY : src/tomograph_window.s
+
+# target to generate assembly for a file
+src/tomograph_window.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/src/tomograph_window.cpp.s
+.PHONY : src/tomograph_window.cpp.s
+
+tomograf_autogen/mocs_compilation.o: tomograf_autogen/mocs_compilation.cpp.o
+.PHONY : tomograf_autogen/mocs_compilation.o
+
+# target to build an object file
+tomograf_autogen/mocs_compilation.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/tomograf_autogen/mocs_compilation.cpp.o
+.PHONY : tomograf_autogen/mocs_compilation.cpp.o
+
+tomograf_autogen/mocs_compilation.i: tomograf_autogen/mocs_compilation.cpp.i
+.PHONY : tomograf_autogen/mocs_compilation.i
+
+# target to preprocess a source file
+tomograf_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/tomograf_autogen/mocs_compilation.cpp.i
+.PHONY : tomograf_autogen/mocs_compilation.cpp.i
+
+tomograf_autogen/mocs_compilation.s: tomograf_autogen/mocs_compilation.cpp.s
+.PHONY : tomograf_autogen/mocs_compilation.s
+
+# target to generate assembly for a file
+tomograf_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tomograf.dir/build.make CMakeFiles/tomograf.dir/tomograf_autogen/mocs_compilation.cpp.s
+.PHONY : tomograf_autogen/mocs_compilation.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -233,19 +379,36 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... tomograf_autogen"
+	@echo "... tomograf_autogen_timestamp_deps"
 	@echo "... tomograf"
+	@echo "... src/dicom_handler.o"
+	@echo "... src/dicom_handler.i"
+	@echo "... src/dicom_handler.s"
 	@echo "... src/iradon.o"
 	@echo "... src/iradon.i"
 	@echo "... src/iradon.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"
+	@echo "... src/patient_info_dialog.o"
+	@echo "... src/patient_info_dialog.i"
+	@echo "... src/patient_info_dialog.s"
 	@echo "... src/phantom_generator.o"
 	@echo "... src/phantom_generator.i"
 	@echo "... src/phantom_generator.s"
 	@echo "... src/radon.o"
 	@echo "... src/radon.i"
 	@echo "... src/radon.s"
+	@echo "... src/ram_lak_filter.o"
+	@echo "... src/ram_lak_filter.i"
+	@echo "... src/ram_lak_filter.s"
+	@echo "... src/tomograph_window.o"
+	@echo "... src/tomograph_window.i"
+	@echo "... src/tomograph_window.s"
+	@echo "... tomograf_autogen/mocs_compilation.o"
+	@echo "... tomograf_autogen/mocs_compilation.i"
+	@echo "... tomograf_autogen/mocs_compilation.s"
 .PHONY : help
 
 

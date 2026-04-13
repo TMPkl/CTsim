@@ -1,5 +1,5 @@
-CMakeFiles/tomograf.dir/src/iradon.cpp.o: \
- /home/karol/Documents/studia/sem6/med/tomograf/src/iradon.cpp \
+CMakeFiles/tomograf.dir/src/ram_lak_filter.cpp.o: \
+ /home/karol/Documents/studia/sem6/med/tomograf/src/ram_lak_filter.cpp \
  /usr/include/stdc-predef.h /usr/include/opencv4/opencv2/opencv.hpp \
  /usr/include/opencv4/opencv2/opencv_modules.hpp \
  /usr/include/opencv4/opencv2/core.hpp \
@@ -371,5 +371,4 @@ CMakeFiles/tomograf.dir/src/iradon.cpp.o: \
  /usr/include/opencv4/opencv2/video.hpp \
  /usr/include/opencv4/opencv2/video/tracking.hpp \
  /usr/include/opencv4/opencv2/video/background_segm.hpp \
- /home/karol/Documents/studia/sem6/med/tomograf/src/iradon.hpp \
  /home/karol/Documents/studia/sem6/med/tomograf/src/ram_lak_filter.hpp
