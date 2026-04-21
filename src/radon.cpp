@@ -78,7 +78,7 @@ cv::Mat radonTransform(const cv::Mat& img,
                        float delta_angle,
                        int number_of_emitters,
                        float detector_span,
-                       float total_angle = 180.0f) {   
+                       float total_angle) {   
     
 
     int width = img.cols;
